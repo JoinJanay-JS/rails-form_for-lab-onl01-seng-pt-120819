@@ -23,7 +23,7 @@ class StudentsController < ApplicationController
         redirect_to student_path(@student)
     end
 
-    private
+    private 
 
     def student_params
         params.require(:student).permit(:first_name, :last_name)
