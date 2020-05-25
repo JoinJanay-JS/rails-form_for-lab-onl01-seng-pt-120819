@@ -1,3 +1,5 @@
+class SchoolClassesController < ApplicationController
+
 def new
        @class = SchoolClass.new
    end
